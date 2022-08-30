@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7f3b07;
+}
+
+header {
+  width: 100%;
+  background-color: #d38214;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  margin: 120px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-variant: small-caps;
+}
+
+header a:hover {
+  color: black;
+}
+
+.titulo {
+  height: 500px;
+  text-align: center;
+  background: url(hamburguer.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo h1 {
+  color: white;
+  padding-top: 215px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  font-size: 50px;
+}
+
+#galeria {
+  color: white;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-variant: small-caps;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.box {
+  background-color: black;
+  width: 350px;
+  height: 300px;
+}
+
+.box-1 {
+  background: url(./galeria/hamburguer1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-2 {
+  background: url(./galeria/hamburguer2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-3 {
+  background: url(./galeria/hamburguer3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-4 {
+  background: url(./galeria/hamburguer4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-5 {
+  background: url(./galeria/hamburguer5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-6 {
+  background: url(./galeria/hamburguer6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-7 {
+  background: url(./galeria/hamburguer7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-8 {
+  background: url(./galeria/hamburguer8.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-9 {
+  background: url(./galeria/hamburguer9.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-10 {
+  background: url(./galeria/hamburguer10.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-11 {
+  background: url(./galeria/hamburguer11.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-12 {
+  background: url(./galeria/hamburguer12.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  color: white;
+  background-color: #d38214;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#contato {
+  padding: 15px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contato h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
